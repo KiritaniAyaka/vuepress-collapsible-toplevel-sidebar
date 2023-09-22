@@ -1,0 +1,6 @@
+{
+	"extends": "@kiritaniayaka",
+	"ignorePatterns": [
+		"lib/"
+	]
+}

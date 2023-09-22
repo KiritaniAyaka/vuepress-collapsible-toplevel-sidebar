@@ -1,0 +1,48 @@
+{
+	"name": "vuepress-collapsible-toplevel-sidebar",
+	"version": "0.1.0",
+	"description": "Make your VuePress default theme has top-level sidebar collapsible",
+	"type": "module",
+	"keywords": [
+		"vuepress",
+		"vuepress2",
+		"vuepress-plugin",
+		"sidebar",
+		"collapsible",
+		"menu",
+		"default-theme",
+		"theme-default"
+	],
+	"license": "MIT",
+	"author": "KiritaniAyaka",
+	"scripts": {
+		"build": "tsc",
+		"lint": "eslint ./src/**/*.ts",
+		"clean": "rimraf ./lib"
+	},
+	"exports": {
+		".": "./lib/node/index.js"
+	},
+	"files": [
+		"lib"
+	],
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/KiritaniAyaka/vuepress-collapsible-toplevel-sidebar.git"
+	},
+	"homepage": "https://github.com/KiritaniAyaka/vuepress-collapsible-toplevel-sidebar",
+	"bugs": {
+		"url": "https://github.com/KiritaniAyaka/vuepress-collapsible-toplevel-sidebar/issues"
+	},
+	"types": "./lib/node/index.d.ts",
+	"devDependencies": {
+		"@kiritaniayaka/eslint-config": "^0.4.0",
+		"eslint": "^8.49.0",
+		"rimraf": "^5.0.1",
+		"typescript": "^5.2.2",
+		"vuepress": "2.0.0-beta.67"
+	},
+	"engines": {
+		"node": ">=16.19.0"
+	}
+}
